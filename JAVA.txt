@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) 
+    {
+        String[] productName = {"T-shirt", "Jeans", "Shorts"};
+        int[] price = {25, 40, 30};
+        
+        for (int i = 0; i < productName.length; i++) {
+            System.out.println(productName[i] + ": " + price[i] + " UAH");
+        }
+    }
+}
